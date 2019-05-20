@@ -1,6 +1,6 @@
 [Project]
-FileName=PrjFuncionesValoresPorReferencia.dev
-Name=PrjFuncionesValoresPorReferencia
+FileName=PrjInputLoop.dev
+Name=PrjInputLoop
 Type=1
 Ver=2
 ObjFiles=
@@ -28,8 +28,7 @@ Folders=
 IncludeVersionInfo=0
 SupportXPThemes=0
 CompilerSet=0
-CompilerSettings=0000000000000000001000000
-UnitCount=1
+CompilerSettings=0000000000000000000000000
 
 [VersionInfo]
 Major=1
@@ -49,14 +48,4 @@ ProductName=
 ProductVersion=
 AutoIncBuildNr=0
 SyncProduct=1
-
-[Unit1]
-FileName=FuncionesValoresPorReferencia.cpp
-CompileCpp=1
-Folder=
-Compile=1
-Link=1
-Priority=1000
-OverrideBuildCmd=0
-BuildCmd=
 
