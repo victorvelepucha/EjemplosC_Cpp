@@ -1,17 +1,18 @@
-# Project: PrjInputLoop
+# Project: PrjRecursividad_1
 # Makefile created by Dev-C++ 5.11
 
 CPP      = g++.exe
 CC       = gcc.exe
 WINDRES  = windres.exe
-OBJ      = InputLoop.o
-LINKOBJ  = InputLoop.o
+RES      = PrjRecursividad_1_private.res
+OBJ      = EjemploRecursividad1.o $(RES)
+LINKOBJ  = EjemploRecursividad1.o $(RES)
 LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
 INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
 CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
-BIN      = PrjInputLoop.exe
-CXXFLAGS = $(CXXINCS) -std=c++11
-CFLAGS   = $(INCS) -std=c++11
+BIN      = PrjRecursividad_1.exe
+CXXFLAGS = $(CXXINCS) 
+CFLAGS   = $(INCS) 
 RM       = rm.exe -f
 
 .PHONY: all all-before all-after clean clean-custom
@@ -24,5 +25,9 @@ clean: clean-custom
 $(BIN): $(OBJ)
 	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
 
-InputLoop.o: InputLoop.cpp
-	$(CPP) -c InputLoop.cpp -o InputLoop.o $(CXXFLAGS)
+EjemploRecursividad1.o: EjemploRecursividad1.cpp
+	$(CPP) -c EjemploRecursividad1.cpp -o EjemploRecursividad1.o $(CXXFLAGS)
+
+PrjRecursividad_1_private.res: PrjRecursividad_1_private.rc 
+	$(WINDRES) -i PrjRecursividad_1_private.rc --input-format=rc -o PrjRecursividad_1_private.res -O coff 
+

@@ -1,6 +1,6 @@
 [Project]
-FileName=PrjInputLoop.dev
-Name=PrjInputLoop
+FileName=PrjRecursividad_1.dev
+Name=PrjRecursividad_1
 Type=1
 Ver=2
 ObjFiles=
@@ -13,13 +13,13 @@ Compiler=
 CppCompiler=
 Linker=
 IsCpp=1
-Icon=
+Icon=PrjRecursividad_1.ico
 ExeOutput=
 ObjectOutput=
 LogOutput=
 LogOutputEnabled=0
 OverrideOutput=0
-OverrideOutputName=PrjInputLoop.exe
+OverrideOutputName=
 HostApplication=
 UseCustomMakefile=0
 CustomMakefile=
@@ -28,8 +28,7 @@ Folders=
 IncludeVersionInfo=0
 SupportXPThemes=0
 CompilerSet=0
-CompilerSettings=00000000c0000000000000000
-UnitCount=1
+CompilerSettings=0000000000000000000000000
 
 [VersionInfo]
 Major=1
@@ -39,24 +38,14 @@ Build=0
 LanguageID=1033
 CharsetID=1252
 CompanyName=
-FileVersion=1.0.0.0
+FileVersion=
 FileDescription=Developed using the Dev-C++ IDE
 InternalName=
 LegalCopyright=
 LegalTrademarks=
 OriginalFilename=
 ProductName=
-ProductVersion=1.0.0.0
+ProductVersion=
 AutoIncBuildNr=0
 SyncProduct=1
-
-[Unit1]
-FileName=InputLoop.cpp
-CompileCpp=1
-Folder=
-Compile=1
-Link=1
-Priority=1000
-OverrideBuildCmd=0
-BuildCmd=
 

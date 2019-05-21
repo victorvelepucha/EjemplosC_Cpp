@@ -1,4 +1,5 @@
-#include<iostream>
+#include <iostream>
+
 using namespace std;
 
 // Prototipos
@@ -6,8 +7,14 @@ void Saludar();
 float CalcularDoble(float num);
 void Triplicar(float &num);
 
+int Factorial (int n)
+{
+return (n <= 1) ? 1 : n * Factorial(n - 1);
+}
+
 // funcion que no recibe ni devuelve nada
 void Saludar() {
+	string prueba;
 	cout << "Hola mundo!" << endl;
 }
 

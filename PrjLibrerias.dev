@@ -1,6 +1,6 @@
 [Project]
-FileName=PrjInputLoop.dev
-Name=PrjInputLoop
+FileName=PrjLibrerias.dev
+Name=PrjLibrerias
 Type=1
 Ver=2
 ObjFiles=
@@ -19,7 +19,7 @@ ObjectOutput=
 LogOutput=
 LogOutputEnabled=0
 OverrideOutput=0
-OverrideOutputName=PrjInputLoop.exe
+OverrideOutputName=
 HostApplication=
 UseCustomMakefile=0
 CustomMakefile=
@@ -28,8 +28,8 @@ Folders=
 IncludeVersionInfo=0
 SupportXPThemes=0
 CompilerSet=0
-CompilerSettings=00000000c0000000000000000
-UnitCount=1
+CompilerSettings=0000000000000000000000000
+UnitCount=3
 
 [VersionInfo]
 Major=1
@@ -50,8 +50,28 @@ ProductVersion=1.0.0.0
 AutoIncBuildNr=0
 SyncProduct=1
 
+[Unit2]
+FileName=Calculadora.cpp
+CompileCpp=1
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit3]
+FileName=Calculadora.h
+CompileCpp=1
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
 [Unit1]
-FileName=InputLoop.cpp
+FileName=EjemploSuma.cpp
 CompileCpp=1
 Folder=
 Compile=1

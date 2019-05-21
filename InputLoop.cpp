@@ -1,11 +1,11 @@
-#include <string.h>
+//#include <string.h>
 #include <iostream>
 using std::cin;
 using std::cout;
 using std::endl;
 
 void Foo() {
-	string prueba;
+	//string prueba;
 	cout << "Hello World!" << endl;
 }
 
