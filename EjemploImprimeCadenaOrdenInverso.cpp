@@ -12,9 +12,8 @@ int main()
 	//int tamanio = cadena.length();
 	int tamanio = sizeof(cadena);
 	char cadena2[tamanio];
-	char *cadena3;
-	
-	cadena3 = &cadena2;
+	//char *cadena3;
+	//cadena3 = &cadena2;
 	
 	strcpy(cadena2,cadena);
 	
