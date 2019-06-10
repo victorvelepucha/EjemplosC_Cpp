@@ -1,9 +1,29 @@
 //Ejemplo validacion digito verificador con arreglos bidimensionales (tablas, matrices)
 #include <iostream>
+//#include <string> 
+#include <stdlib.h>
 using namespace std;
 int main()
 {
 	string cedula = "0703452169";
+	for(int i=0;i<cedula.length();i++)
+		cout << cedula[i] << "\t";
+		cout << endl;
+		
+	int cedulaEnNumeros[10];
+	//cedulaEnNumeros[0] = cedula[0];
+	//....
+	//cedulaEnNumeros[9] = cedula[9];
+	//cout << endl;
+	for(int i=0;i<sizeof(cedulaEnNumeros)/sizeof(cedulaEnNumeros[0]);i++)
+	{
+		char val[1] = {cedula[i]};
+		cedulaEnNumeros[i] = atoi(val);
+		cout << cedulaEnNumeros[i] << "\t";
+	}
+	cout << endl;
+	
+		
 	int validadorCedula[3][10]={{0},{0},{0}};
 	int sumaTotal=0;
 	/*for(int i=0; i<cedula.length()-1; i++ )
