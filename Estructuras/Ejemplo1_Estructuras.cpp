@@ -1,6 +1,7 @@
 #include <iostream>
 
 using namespace std;
+
 struct Cliente
 {
 	char nombre[20];
@@ -11,6 +12,7 @@ struct Cliente
 
 int main()
 {
+
 	
 	return 0;
 }
